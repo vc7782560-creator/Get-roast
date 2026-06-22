@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Roastify AI — Get Roasted. Get Rewarded.</title>
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <meta name="description" content="Roastify AI — playful roasts and rewards.">
+  <meta name="theme-color" content="#6D28D9" />
+</head>
+<body>
+  <header class="rf-nav" role="banner">
+    <div class="rf-container">
+      <a class="logo" href="/" aria-label="Roastify AI home">
+        <img src="assets/roastify-logo.svg" alt="Roastify AI logo" height="40">
+      </a>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-actions">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-actions" id="nav-actions" role="navigation">
+        <div class="nav-left">
+          <a class="nav-link" href="/rewards" title="Your points">
+            <span class="points" id="pointsButton" aria-live="polite" aria-atomic="true">🔥 <span id="pointsValue">1,250</span></span>
+          </a>
+        </div>
+
+        <div class="nav-right">
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+          <a class="profile" href="/profile" aria-label="Profile">Profile</a>
+          <a class="auth" href="/login">Login</a>
+          <a class="cta" href="/register">Register</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Roastify AI</h1>
+        <p class="tagline">Get Roasted. Get Rewarded.</p>
+        <div class="hero-cta">
+          <a class="primary" href="/app">Open App</a>
+          <a class="secondary" href="/how-it-works">How it works</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <!-- Decorative gradient block -->
+        <div class="flame-blob"></div>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <h3>Playful roasts</h3>
+        <p>AI-generated roasts tuned for safety and fun.</p>
+      </div>
+      <div class="feature">
+        <h3>Earn points</h3>
+        <p>Engage and earn points redeemable for perks.</p>
+      </div>
+      <div class="feature">
+        <h3>Profile & rewards</h3>
+        <p>Track points, redeem rewards, and level up.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rf-footer" role="contentinfo">
+    <div class="rf-footer-inner">
+      <div class="col">
+        <h4>About Roastify AI</h4>
+        <p>We deliver playful, safe roasts and reward active users with points redeemable for perks.</p>
+      </div>
+      <div class="col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="/terms">Terms &amp; Conditions</a></li>
+          <li><a href="/rewards">Rewards Policy</a></li>
+          <li><a href="/faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>Get the app</h4>
+        <p>Download on the App Store or Google Play</p>
+      </div>
+    </div>
+    <div class="rf-copyright">
+      © Roastify AI — Get Roasted. Get Rewarded.
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
